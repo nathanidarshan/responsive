@@ -1,0 +1,387 @@
+/* -------------------------------------------------header start --------------------------------------------------- */
+
+.top_info{
+  background-color: #444444;
+  text-align: center;  
+}
+p a{
+  text-decoration: none;
+}
+.top_header{
+  color: #FFFF;
+  font-size: 16px;
+}
+.top_header p a{
+  color: #FFFF;
+  margin: 0 5px;
+}
+.top_icon a{
+  margin: 0 13px;
+  margin-top: 5px;
+}
+.main_header{
+  /* position: sticky; */
+  /* top: 10px; */
+  z-index: 999;
+}
+.headerright a{
+  padding-top: 10px;
+}
+.headerright button{
+  background-color: #5764EC;
+  border-radius: 0;
+  padding: 12px 30px;
+  margin-right: 10px;
+  border: 0;
+}
+.headerright button:hover{
+  background-color: #FF561D;
+  transition: 2s;
+}
+/* -------------------------------------------------header and --------------------------------------------------- */
+/* -------------------------------------------------slider start ------------------------------------------------ */
+.item1 img{
+  width: 100%;
+  height: 100%;
+}
+.item1{
+  position: relative;
+}
+.item1::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to left , rgba(0,0,0,0.1) , #171447);
+}
+.dot{
+  position: relative;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.simg_text h1{
+  font-size: 60px;
+}
+.simg_text{
+  content: '';
+  position: absolute;
+  top: 20%;
+  width: 50%;
+  color: white;
+  font-weight: bold;
+}
+.sbtn{
+  background-color: #5764EC;
+  color: #FFFF;
+  border: 0;
+  padding: 10px 25px;
+  font-weight: bold; 
+}
+span{
+  color: #5764EC;
+}
+/* -------------------------------------------------slider end ------------------------------------------------ */
+/* -------------------------------------------------services start--------------------------------------------- */
+.services_info{
+  text-align: center;
+  margin: 50px 0 60px 0;
+}
+.services_info h6{
+  color: #FF561D;
+}
+.services_info h2{
+  font-weight: bold;
+}
+.s_first span{
+  font-size: 50px;
+  margin-bottom: 20px;
+  /* padding-bottom: 20px; */
+  color: #FF561D;
+}
+.s_first h5{
+  padding-top: 20px;
+}
+.s_first {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 30px 20px 25px 20px;
+}
+.s_first h6{
+  color: #FF561D;
+}
+.ser_section{
+  margin-bottom: 30px;
+}
+.ser_btn{
+  text-align: center;
+  margin-top: 40px;
+
+}
+.ser_btn button{
+  border: none;
+  background-color: #5764EC;
+  color: #FFFF;
+  padding: 15px 35px;
+}
+.spas{
+  margin: 80px;
+}
+/* -------------------------------------------------services end--------------------------------------------- */
+/* -------------------------------------------------about start --------------------------------------- */
+.about{
+  background-color: #FBFBFB;
+  padding: 80px;
+}
+.about_text h5{
+  color: #FF561D;
+}
+.about_text h2{
+  font-weight: bold;
+}
+.last_text{
+  padding-left: 28px;
+  font-weight: bold;
+}
+.last_text::before{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  left: 6% ;
+  background-color: #5764EC;
+}
+.about_sec{
+  padding-top: 30px;
+  /* padding-bottom: 10px; */
+  padding-right: 20px;
+}
+.about_img img{
+  border-radius: 5px;
+}
+/* -------------------------------------------------about and --------------------------------------- */
+/* -------------------------------------------------techsoft start ----------------------------------- */
+.techsoft_info{
+    text-align: center;
+    margin: 50px 0 60px 0;
+}
+.techsoft_info h6{
+  color: #FF561D;
+}
+.techsoft_info h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+/* -------------------------------------------------techsoft end ----------------------------------- */
+/* -------------------------------------------------project start ---------------------------------- */
+.project{
+  background-color: #FBFBFB;
+}
+.project_info{
+  text-align: center;
+  margin: 50px 0 60px 0;
+}
+.project_info h6{
+color: #FF561D;
+}
+.project_info h2{
+font-weight: bold;
+font-size: 40px;
+}
+.project_btn{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+.project_btn button{
+  background-color: #5764EC;
+  color: white;
+  padding: 15px 35px;
+  font-weight: bold;
+  border: 0;
+}
+/* -------------------------------------------------project end ---------------------------------- */
+/* -------------------------------------------------team start------------------------------------ */
+.team_info{
+  text-align: center;
+  margin: 90px 0px 60px 0;
+}
+.team_info h6{
+color: #FF561D;
+}
+.team_info h2{
+font-weight: bold;
+font-size: 40px;
+}
+.team_text{
+  text-align: center;
+}
+.team_text h5{
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+.team_text p{
+  margin-top: -10px;
+  color: #5764EC;
+}
+/* -------------------------------------------------team end------------------------------------ */
+/* -------------------------------------------------teastimonials start------------------------------------ */
+.testi_he{
+  /* background-color: #FBFBFB; */
+  padding-bottom: 80px;
+}
+.testimon_info{
+  text-align: center;
+  margin: 90px 0px 60px 0;
+}
+.testimon_info h6{
+color: #FF561D;
+}
+.testimon_info h2{
+font-weight: bold;
+font-size: 40px;
+}
+.box {
+  box-shadow: 0px 0 15px -6px gray, -0px 0 8px -16px gray ;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 35px;
+}
+.box p{
+  line-height: 25px;
+}
+.box span{
+  color: #FFCE39;
+}
+.box h6{
+  color: gray;
+  font-weight: bold;
+}
+.box_img{
+  margin-top: 30px;
+  width: 70px;
+  background-color: #FFFF;
+  border-radius: 50%;
+}
+.box_img img{
+  border-radius: 50%;
+  width: 70px;
+}
+.img_name {
+  margin-top: 45px;
+  margin-left: 20px;
+}
+.img_name p{
+  margin-top: -10px;
+}
+/* -------------------------------------------------teastimonials end------------------------------------ */
+/* -------------------------------------------------news & updates start --------------------------------------  */
+.newsupda_head{
+  background-color: #FBFBFB;
+  padding: 50px 0;
+}
+.newupdat_info{
+  text-align: center;
+  margin: 90px 0px 60px 0;
+}
+.newupdat_info h6{
+color: #FF561D;
+}
+.newupdat_info h2{
+font-weight: bold;
+font-size: 40px;
+}
+.blog{
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.blog img{
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.newsupda_btn {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.newsupda_btn button{
+  background-color: #5764EC;
+  color: white;
+  padding: 14px 32px;
+  font-weight: bold;
+  border: 0;
+}
+/* -------------------------------------------------news & updates end --------------------------------------  */
+/* ------------------------------------------------- were start --------------------------------------------- */
+.were_head{
+  background-image: url(./image/were-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding: 80px 0;
+}
+.were_text{
+  margin: 0 20%;
+  text-align: center;
+}
+.were_text h1{
+  font-weight: bold;
+  /* width: 50%; */
+
+}
+.were_text button{
+  padding: 10px 30px;
+  border: 0;
+  background-color: #5764EC;
+  color: #FFFF;
+}
+/* ------------------------------------------------- were and --------------------------------------------- */
+/* --------------------------------------- footerinfo start ---------------------------------------------- */
+.footerinfo{
+  background-color: #25262F;
+  color: #FFFF;
+}
+.first_footer a{
+  color: #FFFF;
+  margin-right: 20px;
+  padding: 5px 10px 10px 10px;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+.first_footer a:hover{
+  background-color: #FF561D;
+  border: none;
+  border-radius: 50%;
+  transition: 1s;
+}
+.second_footer a{
+  color: #FFFF;
+  font-size: 14px;
+  text-decoration: none;
+}
+.email{
+  padding: 5px 3px;
+  /* border-radius: 0; */
+}
+.footerbtn{
+  background-color: #5764EC;
+  color: #FFFF;
+  font-size: 14px;
+  border: none;
+  padding: 8px 13px;
+}
+.lastinfo{
+  background-color: #1E1F25;
+  color: #FFFF;
+  font-size: 16px;
+  padding: 40px 0;
+}
+/* --------------------------------------- footerinfo end ---------------------------------------------- */
